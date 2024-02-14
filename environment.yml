@@ -1,0 +1,13 @@
+name: pdf-search
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - pdfplumber
+  - mysql-connector-python
+  - pyyaml
+  - textract
+  - pyarrow
+prefix: /Users/jeffrey/miniconda3/envs/pdf-search
